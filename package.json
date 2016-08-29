@@ -1,0 +1,40 @@
+{
+  "name": "tfk-json-to-xlsx",
+  "version": "1.0.0",
+  "description": "Convert and save json to xlsx files",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-json-to-xlsx/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-json-to-xlsx",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "start": "node service.js",
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tfk-json-to-xlsx.git"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.12",
+    "nsp": "2.6.1",
+    "standard": "8.0.0",
+    "tap": "7.0.0"
+  },
+  "dependencies": {
+    "archiver": "1.0.1"
+  }
+}
