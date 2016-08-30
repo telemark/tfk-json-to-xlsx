@@ -10,7 +10,7 @@ This is basically just the compiled source from [node-xlsx-writestream](https://
 ```JavaScript
 'use strict'
 
-const xlsx = require('./index')
+const xlsx = require('tfk-json-to-xlsx')
 
 const data = [
   {
