@@ -35,6 +35,6 @@
     "tap": "12.0.1"
   },
   "dependencies": {
-    "archiver": "2.1.1"
+    "archiver": "3.0.0"
   }
 }
