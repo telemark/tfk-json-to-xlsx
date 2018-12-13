@@ -21,12 +21,11 @@
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "start": "node service.js",
-    "setup": "npm install && node setup.js",
     "standard-fix": "standard --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/telemark/tfk-json-to-xlsx.git"
+    "url": "git+https://github.com/telemark/tfk-json-to-xlsx.git"
   },
   "devDependencies": {
     "coveralls": "3.0.2",
