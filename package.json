@@ -1,6 +1,6 @@
 {
   "name": "tfk-json-to-xlsx",
-  "version": "1.0.19",
+  "version": "2.0.0",
   "description": "Convert and save json to xlsx files",
   "license": "MIT",
   "author": {
