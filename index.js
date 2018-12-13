@@ -1,5 +1,3 @@
-'use strict'
-
 const Archiver = require('archiver')
 const fs = require('fs')
 const blobs = require('./lib/blobs')
@@ -132,7 +130,7 @@ module.exports = (function () {
     this.sheetStream.unpipe()
     this.zip.unpipe()
     while (this.zip.read()) {
-      1
+      console.log(1)
     }
     delete this.zip
     delete this.sheetStream
